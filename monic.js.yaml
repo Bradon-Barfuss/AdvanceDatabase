@@ -1,0 +1,95 @@
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Weldon", customerlastname: "Acuff", customerStreetAddress: "73 W Barstow Ave", customerCity: "Arlington Heights", customerstate: "IL", customerzip: "60004", customeremailaddress: "wacuff@gmail.com", OrderItems:   [ { prouductName: "LG - 65 Class - LED - SJ8500 Series - 2160p - Smart - 4K UHD TV with HDR", quantity:"1", vendorProductPrice:"1449.00", vendorName:"Q A Service", vendorStreetAddress:"6 Kains Ave", vendorState:"MD", vendorCity:"Baltimore", vendorZip:"21215", supplierName:"LG", supplierStreetAddress:"2 I 55s S", supplierCity:"Salinas", supplierState:"CA", supplierZip:"93912", orderDateTime: "Jan  6 2023  6:38AM", ordertotal: "1949.51", subtotal: "1828.99", shippingcost: "6.21", taxAmount: "114.31"},
+{ prouductName: "Pioneer - 5.1-Ch. 4K Ultra HD HDR Compatible A/V Home Theater Receiver - Black", quantity:"1", vendorProductPrice:"379.99", vendorName:"Can Tron", vendorStreetAddress:"369 Latham St #500", vendorState:"MO", vendorCity:"Saint Louis", vendorZip:"63102", supplierName:"Pioneer", supplierStreetAddress:"24270 E 67th St", supplierCity:"Annandale", supplierState:"VA", supplierZip:"22003", orderDateTime: "Jan  6 2023  6:38AM", ordertotal: "1949.51", subtotal: "1828.99", shippingcost: "6.21", taxAmount: "114.31"}
+ ] })
+
+
+
+
+
+
+db.ShoppingDatabase.insertOne( 
+  { customerfirstname: "Jina", customerlastname: "Briddick", customerStreetAddress: "38938 Park Blvd", customerCity: "Boston", customerstate: "MA", customerzip: "02128", customeremailaddress: "jina_briddick@briddick.com", OrderItems:   [ { prouductName: "Weber State University Coaches Hat", quantity:"3", vendorProductPrice:"25.00", vendorName:"Eagle Software Inc", vendorStreetAddress:"5384 Southwyck Blvd", vendorState:"GA", vendorCity:"Douglasville", vendorZip:"30135", supplierName:"Roberts Supply Co Inc", supplierStreetAddress:"8429 Miller Rd", supplierCity:"Pelham", supplierState:"NY", supplierZip:"10803", orderDateTime: "Jan 21 2023  8:26AM", ordertotal: "205.97", subtotal: "186.00", shippingcost: "9.55", taxAmount: "10.42"},
+{ prouductName: "Weber State University Crew Socks", quantity:"2", vendorProductPrice:"18.00", vendorName:"Circuit Solution Inc", vendorStreetAddress:"39 Moccasin Dr", vendorState:"CA", vendorCity:"San Francisco", vendorZip:"94104", supplierName:"Smits, Patricia Garity", supplierStreetAddress:"30 W 80th St #1995", supplierCity:"San Carlos", supplierState:"CA", supplierZip:"94070", orderDateTime: "Jan 21 2023  8:26AM", ordertotal: "205.97", subtotal: "186.00", shippingcost: "9.55", taxAmount: "10.42"},
+{ prouductName: "Weber State University Putter Cover", quantity:"3", vendorProductPrice:"25.00", vendorName:"Sidewinder Products Corp", vendorStreetAddress:"8573 Lincoln Blvd", vendorState:"PA", vendorCity:"York", vendorZip:"17404", supplierName:"United Product Lines", supplierStreetAddress:"81 Norris Ave #525", supplierCity:"Ronkonkoma", supplierState:"NY", supplierZip:"11779", orderDateTime: "Jan 21 2023  8:26AM", ordertotal: "205.97", subtotal: "186.00", shippingcost: "9.55", taxAmount: "10.42"}
+] })
+
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Dominque", customerlastname: "Dickerson", customerStreetAddress: "69 Marquette Ave", customerCity: "Hayward", customerstate: "CA", customerzip: "94545", customeremailaddress: "dominque.dickerson@dickerson.org", OrderItems:   [ 
+  { prouductName: "Weber State University Volleyball Short Sleeve T-Shirt", quantity:"2", vendorProductPrice:"19.95", vendorName:"Linguistic Systems Inc", vendorStreetAddress:"506 S Hacienda Dr", vendorState:"NJ", vendorCity:"Atlantic City", vendorZip:"08401", supplierName:"Tipiak Inc", supplierStreetAddress:"80312 W 32nd St", supplierCity:"Conroe", supplierState:"TX", supplierZip:"77301", orderDateTime: "Feb 17 2023 10:36AM", ordertotal: "67.79", subtotal: "39.90", shippingcost: "25.50", taxAmount: "2.39"},
+{ prouductName: "Weber State University Coaches Hat", quantity:"1", vendorProductPrice:"25.00", vendorName:"Eagle Software Inc", vendorStreetAddress:"5384 Southwyck Blvd", vendorState:"GA", vendorCity:"Douglasville", vendorZip:"30135", supplierName:"Roberts Supply Co Inc", supplierStreetAddress:"8429 Miller Rd", supplierCity:"Pelham", supplierState:"NY", supplierZip:"10803", orderDateTime: "Jan 20 2023  4:24AM", ordertotal: "106.82", subtotal: "80.95", shippingcost: "21.01", taxAmount: "4.86"},
+{ prouductName: "Weber State University Putter Cover", quantity:"2", vendorProductPrice:"25.00", vendorName:"Price Business Services", vendorStreetAddress:"7 West Ave #1", vendorState:"IL", vendorCity:"Palatine", vendorZip:"60067", supplierName:"United Product Lines", supplierStreetAddress:"81 Norris Ave #525", supplierCity:"Ronkonkoma", supplierState:"NY", supplierZip:"11779", orderDateTime: "Jan 20 2023  4:24AM", ordertotal: "106.82", subtotal: "80.95", shippingcost: "21.01", taxAmount: "4.86"},
+{ prouductName: "Weber State University Rain Poncho", quantity:"1", vendorProductPrice:"5.95", vendorName:"Burton & Davis", vendorStreetAddress:"70 Mechanic St", vendorState:"CA", vendorCity:"Northridge", vendorZip:"91325", supplierName:"United Product Lines", supplierStreetAddress:"81 Norris Ave #525", supplierCity:"Ronkonkoma", supplierState:"NY", supplierZip:"11779", orderDateTime: "Jan 20 2023  4:24AM", ordertotal: "106.82", subtotal: "80.95", shippingcost: "21.01", taxAmount: "4.86"}
+
+] })
+
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Renea", customerlastname: "Monterrubio", customerStreetAddress: "26 Montgomery St", customerCity: "Atlanta", customerstate: "GA", customerzip: "30328", customeremailaddress: "renea@hotmail.com", OrderItems:  [ { prouductName: "AVR-S530BT 5.2-Channel A/V Receiver", quantity:"1", vendorProductPrice:"279.00", vendorName:"Smc Inc", vendorStreetAddress:"11279 Loytan St", vendorState:"FL", vendorCity:"Jacksonville", vendorZip:"32254", supplierName:"Denon", supplierStreetAddress:"46055 Metropolitan Sq", supplierCity:"Great Neck", supplierState:"NY", supplierZip:"11021", orderDateTime: "Feb 18 2023  3:21PM", ordertotal: "1581.63", subtotal: "1517.98", shippingcost: "2.93", taxAmount: "60.72"},
+{ prouductName: "Onkyo - 5.1-Ch. Home Theater System - Black", quantity:"2", vendorProductPrice:"399.99", vendorName:"Can Tron", vendorStreetAddress:"369 Latham St #500", vendorState:"MO", vendorCity:"Saint Louis", vendorZip:"63102", supplierName:"Onkyo", supplierStreetAddress:"74 Ridgewood Rd", supplierCity:"New York", supplierState:"NY", supplierZip:"10017", orderDateTime: "Feb 18 2023  3:21PM", ordertotal: "1581.63", subtotal: "1517.98", shippingcost: "2.93", taxAmount: "60.72"},
+{ prouductName: "Gear 360 Spherical VR Camera", quantity:"1", vendorProductPrice:"439.00", vendorName:"Casco Services Inc", vendorStreetAddress:"96541 W Central Blvd", vendorState:"AZ", vendorCity:"Phoenix", vendorZip:"85034", supplierName:"Samsung", supplierStreetAddress:"8537 10th St W", supplierCity:"San Anselmo", supplierState:"CA", supplierZip:"94960", orderDateTime: "Feb 18 2023  3:21PM", ordertotal: "1581.63", subtotal: "1517.98", shippingcost: "2.93", taxAmount: "60.72"}
+] })
+
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Bobbye", customerlastname: "Rhym", customerStreetAddress: "30 W 80th St #1995", customerCity: "San Carlos", customerstate: "CA", customerzip: "94070", customeremailaddress: "brhym@rhym.com", OrderItems:  [ { prouductName: "Weber State University Putter Cover", quantity:"2", vendorProductPrice:"25.00", vendorName:"Sidewinder Products Corp", vendorStreetAddress:"8573 Lincoln Blvd", vendorState:"PA", vendorCity:"York", vendorZip:"17404", supplierName:"United Product Lines", supplierStreetAddress:"81 Norris Ave #525", supplierCity:"Ronkonkoma", supplierState:"NY", supplierZip:"11779", orderDateTime: "Feb 24 2023  8:14AM", ordertotal: "102.55", subtotal: "73.80", shippingcost: "24.32", taxAmount: "4.43"},
+{ prouductName: "Weber State University Rain Poncho", quantity:"4", vendorProductPrice:"5.95", vendorName:"Burton & Davis", vendorStreetAddress:"70 Mechanic St", vendorState:"CA", vendorCity:"Northridge", vendorZip:"91325", supplierName:"United Product Lines", supplierStreetAddress:"81 Norris Ave #525", supplierCity:"Ronkonkoma", supplierState:"NY", supplierZip:"11779", orderDateTime: "Feb 24 2023  8:14AM", ordertotal: "102.55", subtotal: "73.80", shippingcost: "24.32", taxAmount: "4.43"}
+] })
+
+
+
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Kasandra", customerlastname: "Semidey", customerStreetAddress: "369 Latham St #500", customerCity: "Saint Louis", customerstate: "MO", customerzip: "63102", customeremailaddress: "kasandra_semidey@semidey.com", OrderItems:  [ { prouductName: "PA248Q 24 LED Backlit IPS Widescreen Monitor", quantity:"3", vendorProductPrice:"180.00", vendorName:"Harris Corporation", vendorStreetAddress:"4 Iwaena St", vendorState:"MD", vendorCity:"Baltimore", vendorZip:"21202", supplierName:"ASUS", supplierStreetAddress:"87 20th St E", supplierCity:"Brooklyn", supplierState:"NY", supplierZip:"11219", orderDateTime: "Feb 13 2023 12:17PM", ordertotal: "985.91", subtotal: "938.89", shippingcost: "7.30", taxAmount: "39.72"},
+{ prouductName: "JBL - Free True Wireless In-Ear Headphones - Black", quantity:"2", vendorProductPrice:"149.95", vendorName:"Mcauley Mfg Co", vendorStreetAddress:"2972 Lafayette Ave", vendorState:"CA", vendorCity:"Gardena", vendorZip:"90248", supplierName:"JBL", supplierStreetAddress:"63248 Elm St", supplierCity:"Modesto", supplierState:"CA", supplierZip:"95354", orderDateTime: "Feb 13 2023 12:17PM", ordertotal: "985.91", subtotal: "938.89", shippingcost: "7.30", taxAmount: "39.72"},
+{ prouductName: "JBL Under Armour Sport Wireless Heart Rate In-Ear Headphones Black", quantity:"1", vendorProductPrice:"98.99", vendorName:"John Wagner Associates", vendorStreetAddress:"759 Eldora St", vendorState:"CT", vendorCity:"New Haven", vendorZip:"06515", supplierName:"JBL", supplierStreetAddress:"63248 Elm St", supplierCity:"Modesto", supplierState:"CA", supplierZip:"95354", orderDateTime: "Feb 13 2023 12:17PM", ordertotal: "985.91", subtotal: "938.89", shippingcost: "7.30", taxAmount: "39.72"}
+] })
+
+
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Ernie", customerlastname: "Stenseth", customerStreetAddress: "45 E Liberty St", customerCity: "Ridgefield Park", customerstate: "NJ", customerzip: "07660", customeremailaddress: "ernie_stenseth@aol.com", OrderItems:  [{ prouductName: "Black Weber State University Women's Hooded Sweatshirt", quantity:"1", vendorProductPrice:"48.00", vendorName:"Burton & Davis", vendorStreetAddress:"70 Mechanic St", vendorState:"CA", vendorCity:"Northridge", vendorZip:"91325", supplierName:"Franklin Peters Inc", supplierStreetAddress:"74 S Westgate St", supplierCity:"Albany", supplierState:"NY", supplierZip:"12204", orderDateTime: "Jan 19 2023 10:03AM", ordertotal: "94.75", subtotal: "65.85", shippingcost: "24.53", taxAmount: "4.37"},
+{ prouductName: "Weber State University Rain Poncho", quantity:"3", vendorProductPrice:"5.95", vendorName:"Professionals Unlimited", vendorStreetAddress:"66697 Park Pl #3224", vendorState:"WY", vendorCity:"Riverton", vendorZip:"82501", supplierName:"United Product Lines", supplierStreetAddress:"81 Norris Ave #525", supplierCity:"Ronkonkoma", supplierState:"NY", supplierZip:"11779", orderDateTime: "Jan 19 2023 10:03AM", ordertotal: "94.75", subtotal: "65.85", shippingcost: "24.53", taxAmount: "4.37"},
+{ prouductName: "Weber State University Volleyball Short Sleeve T-Shirt", quantity:"1", vendorProductPrice:"19.95", vendorName:"Linguistic Systems Inc", vendorStreetAddress:"506 S Hacienda Dr", vendorState:"NJ", vendorCity:"Atlantic City", vendorZip:"08401", supplierName:"Tipiak Inc", supplierStreetAddress:"80312 W 32nd St", supplierCity:"Conroe", supplierState:"TX", supplierZip:"77301", orderDateTime: "Jan  8 2023 10:28PM", ordertotal: "35.01", subtotal: "31.85", shippingcost: "1.05", taxAmount: "2.11"},
+{ prouductName: "Weber State University Rain Poncho", quantity:"2", vendorProductPrice:"5.95", vendorName:"Jets Cybernetics", vendorStreetAddress:"99586 Main St", vendorState:"TX", vendorCity:"Dallas", vendorZip:"75207", supplierName:"United Product Lines", supplierStreetAddress:"81 Norris Ave #525", supplierCity:"Ronkonkoma", supplierState:"NY", supplierZip:"11779", orderDateTime: "Jan  8 2023 10:28PM", ordertotal: "35.01", subtotal: "31.85", shippingcost: "1.05", taxAmount: "2.11"}
+ ] })
+
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Viva", customerlastname: "Toelkes", customerStreetAddress: "4284 Dorigo Ln", customerCity: "Chicago", customerstate: "IL", customerzip: "60647", customeremailaddress: "viva.toelkes@gmail.com", OrderItems:  [{ prouductName: "Black Weber State University Women's Hooded Sweatshirt", quantity:"2", vendorProductPrice:"48.00", vendorName:"Art Crafters", vendorStreetAddress:"703 Beville Rd", vendorState:"FL", vendorCity:"Opa Locka", vendorZip:"33054", supplierName:"Franklin Peters Inc", supplierStreetAddress:"74 S Westgate St", supplierCity:"Albany", supplierState:"NY", supplierZip:"12204", orderDateTime: "Jan  3 2023  8:49PM", ordertotal: "130.84", subtotal: "111.99", shippingcost: "11.85", taxAmount: "7.00"},
+{ prouductName: "Weber State University Boys' Tri-Blend Short Sleeve T-Shirt", quantity:"1", vendorProductPrice:"15.99", vendorName:"Eagle Software Inc", vendorStreetAddress:"5384 Southwyck Blvd", vendorState:"GA", vendorCity:"Douglasville", vendorZip:"30135", supplierName:"Knwz Products", supplierStreetAddress:"45 E Liberty St", supplierCity:"Ridgefield Park", supplierState:"NJ", supplierZip:"07660", orderDateTime: "Jan  3 2023  8:49PM", ordertotal: "130.84", subtotal: "111.99", shippingcost: "11.85", taxAmount: "7.00"}
+ ] })
+
+
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Kattie", customerlastname: "Vonasek", customerStreetAddress: "2845 Boulder Crescent St", customerCity: "Cleveland", customerstate: "OH", customerzip: "44103", customeremailaddress: "kattie@vonasek.org", OrderItems:  [{ prouductName: "Gear 360 Spherical VR Camera", quantity:"1", vendorProductPrice:"377.71", vendorName:"Valerie & Company", vendorStreetAddress:"1 S Pine St", vendorState:"TN", vendorCity:"Memphis", vendorZip:"38112", supplierName:"Samsung", supplierStreetAddress:"8537 10th St W", supplierCity:"San Anselmo", supplierState:"CA", supplierZip:"94960", orderDateTime: "Jan  7 2023  8:08PM", ordertotal: "913.32", subtotal: "857.70", shippingcost: "6.30", taxAmount: "49.32"},
+{ prouductName: "Samsung - 850 PRO 1TB Internal SATA III Solid State Drive for Laptops", quantity:"1", vendorProductPrice:"479.99", vendorName:"Can Tron", vendorStreetAddress:"369 Latham St #500", vendorState:"MO", vendorCity:"Saint Louis", vendorZip:"63102", supplierName:"Samsung", supplierStreetAddress:"8537 10th St W", supplierCity:"San Anselmo", supplierState:"CA", supplierZip:"94960", orderDateTime: "Jan  7 2023  8:08PM", ordertotal: "913.32", subtotal: "857.70", shippingcost: "6.30", taxAmount: "49.32"}
+ ] })
+
+db.ShoppingDatabase.insertOne( 
+{ customerfirstname: "Vincenza", customerlastname: "Zepp", customerStreetAddress: "395 S 6th St #2", customerCity: "El Cajon", customerstate: "CA", customerzip: "92020", customeremailaddress: "vzepp@gmail.com", OrderItems:  [{ prouductName: "LG - 65 Class - OLED - B7A Series - 2160p - Smart - 4K UHD TV with HDR", quantity:"2", vendorProductPrice:"2499.99", vendorName:"Can Tron", vendorStreetAddress:"369 Latham St #500", vendorState:"MO", vendorCity:"Saint Louis", vendorZip:"63102", supplierName:"LG", supplierStreetAddress:"2 I 55s S", supplierCity:"Salinas", supplierState:"CA", supplierZip:"93912", orderDateTime: "Feb  8 2023  4:46PM", ordertotal: "6057.46", subtotal: "5699.96", shippingcost: "15.50", taxAmount: "342.00"},
+{ prouductName: "Pioneer - XDP-300R 32GB* Video MP3 Player - Black", quantity:"1", vendorProductPrice:"699.98", vendorName:"Can Tron", vendorStreetAddress:"369 Latham St #500", vendorState:"MO", vendorCity:"Saint Louis", vendorZip:"63102", supplierName:"Pioneer", supplierStreetAddress:"24270 E 67th St", supplierCity:"Annandale", supplierState:"VA", supplierZip:"22003", orderDateTime: "Feb  8 2023  4:46PM", ordertotal: "6057.46", subtotal: "5699.96", shippingcost: "15.50", taxAmount: "342.00"}
+ ] })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.ShoppingDatabase.find({}, {customerfirstname: 1, customerlastname: 1, OrderItems: {productName: 1, quantity: 1, vendorProductPrice: 1, vendorName: 1, ordertotal: 1, subtotal: 1, shippingcost: 1, taxAmount: 1, productName: 1}})
+
+
+
+
+
+

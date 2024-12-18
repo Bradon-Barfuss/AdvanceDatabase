@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[STATETAX] (
+    [State]   NVARCHAR (2)   NOT NULL,
+    [TaxRate] DECIMAL (5, 4) NOT NULL,
+    CONSTRAINT [PK_State] PRIMARY KEY CLUSTERED ([State] ASC)
+);
+
+
+GO
+

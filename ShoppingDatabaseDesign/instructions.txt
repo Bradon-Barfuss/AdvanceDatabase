@@ -1,0 +1,78 @@
+Functions:
+udf_getCustomerID (@customerEmailAddress NVARCHAR(255)
+udf_getOrderDate (@orderDateTime NVARCHAR(50))
+udf_getVendorID (@vendorName NVARCHAR(255))
+udf_getProductID (@productName NVARCHAR(255))
+udf_getSupplierID (@supplierName NVARCHAR(255))
+udf_getOrderTableID (@customerEmailAddress NVARCHAR(255), @orderDateTime NVARCHAR(50))
+udf_getLatitude (@ZipCode NVARCHAR(9))
+udf_getLongitude (@ZipCode NVARCHAR(9))
+udf_getCustomerZip (@customerEmailAddress NVARCHAR(255))
+udf_calculateShipping (@customerZipcode NVARCHAR(9), @VendorZipcode NVARCHAR(9))
+udf_getOrderTax (@customerEmailAddress NVARCHAR(255))
+udf_getVendorZipCode(@customerEmailAddress NVARCHAR(255), @orderDateTime NVARCHAR(50))
+udf_calculateTax (@customerState NVARCHAR(2), @subtotal SMALLMONEY)
+
+
+Procedures:
+
+usp_calculateSubtotal (customerEmailAddress, orderDateTime)
+usp_getCustomerLatitude
+usp_getCustomerLongitude
+usp_getVendorLatitude
+usp_getVendorLongitude
+usp_AddCustomer
+usp_AddVendor
+usp_AddSupplier
+usp_AddProduct
+usp_AddOrder
+usp_AddVendorProduct
+usp_AddOrderItems
+
+
+
+Add logic to the appropriate procedure to check that the vendor has enough product to sell before an order can be filled. As an order is placed, remove the number of items ordered from the quantity on hand value for that vendor product
+
+DONE: Insert the zip code information into the zip table. Note that there are four cities that have a single quote in
+the name of the city. Escape the single quote by adding an additional single quote.
+
+DONE: Create EXECUTE statements to populate the zip code table to the database using this file zipcodes.txtDownload zipcodes.txt
+
+DONE: Create a function to retrieve the latitude based on zip code and call it udf_getLatitude
+
+DONE: Create a function to retrieve the longitude based on zip code and call it udf_getLongitude
+
+DONE: Create a procedure to calculate the latitude based on the CustomerZipCode using the latitude and call it usp_getCustomerLatitude
+
+DONE: Create a procedure to calculate the longitude based on the CustomerZipCode using the longitude and call it usp_getCustomerLongitude
+
+DONE: Create a procedure to calculate the latitude based on the VendorZipCode using the latitude and call it usp_getVendorLatitude
+
+DONE: Create a procedure to calculate the longitude based on the VendorZipCode using the longitude and call it usp_getVendorLongitude
+
+DONE: Create a procedure to calculate the subtotal for each individual order. Call it usp_calculateSubtotal
+
+
+
+
+Create a procedure to calculate the distance between vendor and customer. Call it usp_calculateDistance
+
+
+//made it a function
+Create a procedure to calculate shipping based on the distance between customer and vendor. Charge $0.01 per mile for shipping per order (not order item). If there is more than one vendor on the order, choose one to use in calculation. Call 
+it usp_calculateShippingCost
+
+
+DONE: Create a procedure to calculate tax based on the customer state for the customer order. Use this file to create a table in the database to calculate tax StateTax.txt Download StateTax.txt.  Add the tax amount to the Order. Call it usp_calculateTaxAmount
+
+
+
+Create a procedure to complete the order table by inserting the subtotal, tax amount, shipping cost and order total. Call it usp_updateOrder
+
+Run EXECUTE statements against all orders to populate the subtotal, tax amount, shipping cost and order total using the customer email address and order date values.
+
+Create a view to show the customer first and last name, street address, city, state, zip, order date, names of products purchased, quantity of items purchased, price of items purchased, subtotal of order, tax amount of order, shipping cost of order, total of order. Call the view [dbo].udv_customerOrderView
+
+Create a view to show the vendor name, names of products sold, total number of each product sold. total sales amount of each product sold, and total sales for the vendor. Call the view [dbo].udv_vendorProductView
+
+Create views to show supplier name, name of products sold to vendors, total number of each product sold to vendors. Call the view [dbo].udv_supplierProductView
