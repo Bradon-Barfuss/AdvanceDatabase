@@ -1,6 +1,5 @@
 ---- Shopping Database Creation Script
--- CS 3550
---Bradon Barfuss
+--- Bradon Barfuss
 
 -------------------------------------------
 -- Move to Master Database
